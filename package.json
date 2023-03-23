@@ -1,0 +1,25 @@
+{
+  "namespace": "multiplechain",
+  "name": "@multiplechain/evm-based-chains",
+  "version": "0.1.0",
+  "description": "EVM Based chain informations",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "parcel build --no-cache --no-source-maps --dist-dir dist"
+  },
+  "prepublishOnly": "npm run build",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MultipleChain/evm-based-chains-js.git"
+  },
+  "author": "MultipleChain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MultipleChain/evm-based-chains-js/issues"
+  },
+  "homepage": "https://github.com/MultipleChain/evm-based-chains-js"
+}
