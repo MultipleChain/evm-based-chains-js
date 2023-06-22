@@ -1,7 +1,7 @@
 {
   "namespace": "multiplechain",
   "name": "@multiplechain/evm-based-chains",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "EVM Based chain informations",
   "files": [
     "dist"
